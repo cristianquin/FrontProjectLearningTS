@@ -19,7 +19,18 @@ const Listado = () => {
 
   return (
     <div>
-      <p>Hola desde Listado</p>
+      <h1
+        className="bg-black
+      text-white text-center"
+      >
+        Pokédex{" "}
+        <Figure.Image
+          width={50}
+          height={50}
+          alt="heart"
+          src="https://cdn-icons-png.flaticon.com/128/743/743977.png"
+        />
+      </h1>
 
       <header className="d-flex justify-content-end">
         <input
